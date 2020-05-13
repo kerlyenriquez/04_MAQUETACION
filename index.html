@@ -1,0 +1,110 @@
+<!DOCTYPE>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>MAQUETACIÓN</title>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap" rel="stylesheet">
+        <style type="text/css">
+            header{}
+            body{
+                font-family: 'Lato', sans-serif;
+                font-size: 50px; 
+            }
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            h1{
+                position: absolute;
+                text-align: center;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                font-size: 300px;
+                color: darkred;
+                font-family: 'Long Cang', cursive;
+                display: flex;
+            }
+            header{column-count: 2;
+            display: flex}
+            section{
+                width: 50%
+                height:70vh;
+            }
+            header section img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                object-position: center center;
+                background: blue;
+            }
+            header section1 img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                object-position: center center;
+                background: red;
+            }
+            
+            main{
+                width: 2000px;
+                margin: 200px;
+            }
+            main>p{
+                padding: 90;
+                color: lightcoral;
+                column-count: 2;
+                column-gap: 60px;
+                column-rule: 9px solid red;
+                text-align: justify;
+                hyphens: auto;
+                line-height: 1,3;    
+            }
+            .circle img{
+                border-radius: 100%;
+                padding: 300;
+                margin: 0;    
+            }
+            .hexagon img{
+                width: 100%;
+                padding: 20px;
+                border-radius: 30% 50%;
+                margin: 30;
+            }
+            
+        </style>
+        
+    </head>
+    <body>
+        <header>
+            <section>
+            <img src="img/dia.jpg">
+            </section>
+            <section1>
+                <h1>Alberto Corazón</h1>
+                <img src="img/tener.jpg">
+            </section1>
+        </header>
+        <main>
+            <p>Madrid, 1942 es un diseñador, fotógrafo, escultor y pintor español. Algunos de sus más conocidos diseños representan los logotipos de instituciones y empresas españolas como la Biblioteca Nacional, Casa de América, Ministerio de Sanidad y Consumo, Junta de Andalucía, Universidad Autónoma de Madrid (UAM), Compañía Nacional de Teatro Clásico, ONCE, Paradores, Renfe Cercanías, SGAE, Centro Cultural de la Villa de Madrid, etc. Ha sido fundador y presidente de la Asociación Española de Diseñadores Profesionales. En noviembre de 2006 ingresó en la Real Academia de Bellas Artes de San Fernando con la creación de la disciplina de diseñador en dicha institución.</p>
+            <article>
+            <div class="circle">
+                
+                <p1>Nacido en Madrid en 1942, entre 1960 y 1965 cursó en su Universidad estudios de Sociología y Ciencias Económicas mientras, a partir de su interés por el dibujo y la pintura, se iniciaba en el diseño gráfico, un capítulo insólito por no decir inexistente en esos últimos años de la dictadura franquista. En ese periodo crea de forma colectiva la editorial Ciencia Nueva; también presenta sus primeras exposiciones de pintura en Turín y en Milán.</p1>
+                <img src="img/alberto.jpg">
+                <p1>Participa en los primeros pasos del “arte conceptual” que en el inicio de la década de 1970 organizó España la Galería Redor. Hace sus primeras exposiciones en 'espacios alternativos' y continúa mostrando su obra en Europa (Italia y Alemania), y estará presente en la Bienal de Venecia de 1976 junto con Tàpies y el Equipo Crónica. Dos años después fue invitado en la Bienal de París para exponer en el Petit Palais junto con Antonio Saura. Su última aportación al «idea art» tuvo lugar en la Galería Alexander Iolas de Nueva York en 1979 con el proyecto antológico denominado Leer la Imagen.</p1>
+                <div class="hexagon">
+                <img src="img/silencio.jpg">
+                </div>
+                </div>
+                </article>
+        </main>
+    </body>
+</html>
